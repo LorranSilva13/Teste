@@ -9,7 +9,7 @@ function PingPong() {
     const raqueteLargura = 10; // Largura das raquetes
     const raqueteAltura = 80; // Altura das raquetes
     const raqueteDistanciaBordaE = 5; // Distância da raquete esquerda da borda
-    const raqueteDistanciaBordaD = mesaLargura - 15; // Distância da raquete direita da borda
+    const raqueteDistanciaBordaD = mesaLargura - (raqueteLargura + raqueteDistanciaBordaE); // Distância da raquete direita da borda
     const bolaRaio = 10; // Raio da bola
 
     // Devo pesquisar mais do que se trata essas constantes por utilizarem [] e useState
